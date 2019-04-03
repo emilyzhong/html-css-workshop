@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	background: #f3f3f3;
+	font-family: Helvetica;
+}
+
+#main {
+	width: 600px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#pf-pic {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	margin-top: 72px;
+}
+
+#pf-pic img {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.post {
+	background: white;
+	border-radius: 12px;
+	overflow: hidden;
+	margin: 72px 0;
+	line-height: 1.4em;
+}
+
+.cover-img {
+	position: relative;
+	height: 200px;
+	overflow: hidden;
+}
+
+.cover-img img {
+	position: absolute;
+	width: 100%;
+}
+
+.content {
+	margin: 36px;
+}
