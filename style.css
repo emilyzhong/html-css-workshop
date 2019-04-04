@@ -36,14 +36,7 @@ body {
 	line-height: 1.4em;
 }
 
-.cover-img {
-	position: relative;
-	height: 200px;
-	overflow: hidden;
-}
-
-.cover-img img {
-	position: absolute;
+.cover-img { 
 	width: 100%;
 }
 
